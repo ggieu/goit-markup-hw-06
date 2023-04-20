@@ -613,8 +613,7 @@ img {
     position: absolute;
     top: 24px;
     right: 24px;
-    border: 1px solid;
-    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.1);;
     border-radius: 50%;
     background-color: #E7E9FC;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -775,6 +774,7 @@ img {
 
 .agree-link {
     color: #4D5AE5;
+    margin-left: 4px;
 }
 
 .modal-send {
@@ -893,6 +893,7 @@ img {
     background-color: transparent;
     display: flex;
     align-items: center;
+    padding-left: 16px;
 }
 
 .person-email::placeholder {
@@ -901,7 +902,6 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
-    padding-left: 16px;
     transform: translateY(-50%);
     top: 50%;
     
@@ -912,6 +912,7 @@ img {
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
+    /* padding-left: 16px; */
 }
 
 .footer-label {
